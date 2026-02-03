@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class DemoApplication {
     public static void main(String[] args) {
+        System.setProperty("server.port", "8085");
         SpringApplication.run(DemoApplication.class, args);
     }
 }
@@ -16,6 +17,6 @@ public class DemoApplication {
 class HelloController {
     @GetMapping("/")
     public String hello() {
-        return "Hello CI/CD World!";
+        return "Hello CI/CD ROGER";
     }
 }
