@@ -17,6 +17,6 @@ public class DemoApplication {
 class HelloController {
     @GetMapping("/")
     public String hello() {
-        return "Hello CI/CD ROGER";
+        return "Hello CI/CD MUNDO SPRINT";
     }
 }
