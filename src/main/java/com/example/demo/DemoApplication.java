@@ -40,7 +40,7 @@ class HelloController {
                "<table>" +
                "  <tr><th>Campo</th><th>Detalle</th></tr>" +
                 "  <tr><td>Grupo</td><td>Cambatec</td></tr>" +
-               "  <tr><td>Estudiantes</td><td>Roger,Emilio,Carlos Eduardo,Guincha,Jhon</td></tr>" +
+               "  <tr><td>Estudiantes</td><td>Roger Hurtado,Emilio Jimenez,Carlos Eduardo Balcazar,Juan Carlos Guincha,Jhon Lllanos</td></tr>" +
                "  <tr><td>Proyecto</td><td>Laboratorio 3 - Módulo 4</td></tr>" +
                "  <tr><td>Tecnologías</td><td>Spring Boot, Jenkins, GitHub, Linux</td></tr>" +
                "  <tr><td>Puerto</td><td>8085</td></tr>" +
