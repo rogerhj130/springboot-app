@@ -19,13 +19,13 @@ public class DemoApplication {
 @RestController
 class HelloController {
 
-    // Endpoint principal (Raíz)
+    
     @GetMapping("/")
-    public String hello() {
-        return "<h1>Servidor de Cambatec</h1><p>Estado: <b>CI/CD Funcionando perfectamente</b></p>";
+   public String hello() {
+        return "<h1>Servidor de Cambatec</h1><p>Estado: <b>CI/CD Funcionando perfectamente1</b></p>";
     }
 
-    // NUEVO ENDPOINT: Tu IP:8085/api/info
+
     @GetMapping("/api/info")
     public String getInfo() {
         return "<html>" +
