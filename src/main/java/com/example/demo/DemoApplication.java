@@ -22,7 +22,7 @@ class HelloController {
     
     @GetMapping("/")
    public String hello() {
-        return "<h1>Servidor de Cambatec</h1><p>Estado: <b>CI/CD Funcionando perfectamente1</b></p>";
+        return "<h1>Servidor de Cambatec</h1><p>Estado: <b>CI/CD Funcionando perfectamente3</b></p>";
     }
 
     @GetMapping("/health")
