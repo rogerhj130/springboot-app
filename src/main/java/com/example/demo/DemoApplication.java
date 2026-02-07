@@ -25,6 +25,10 @@ class HelloController {
         return "<h1>Servidor de Cambatec</h1><p>Estado: <b>CI/CD Funcionando perfectamente1</b></p>";
     }
 
+    @GetMapping("/health")
+   public String health() {
+        return "Health check passed!";
+    }
 
     @GetMapping("/api/info")
     public String getInfo() {
